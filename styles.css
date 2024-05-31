@@ -10,3 +10,8 @@
 --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
 --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
 }
+
+body{
+    font-family: "League Spartan", sans-serif;
+    
+}
