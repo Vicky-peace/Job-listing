@@ -23,7 +23,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: #022424;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: relative;
 }
@@ -40,6 +40,8 @@ img{
     display: flex;
     gap: 10px;
     position: absolute;
+    background-color: #ad4343 ;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   
   .filter-tag {
