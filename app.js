@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 jobCard.appendChild(jobLogo);
                 jobCard.appendChild(jobDetails);
                 jobCard.appendChild(jobTags);
-                jobListingsContainer.appendChild(jobCard);
+                // jobListingsContainer.appendChild(jobCard);
             }
         });
     }
