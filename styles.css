@@ -25,6 +25,7 @@ header {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
 }
 header img{
     background-size: cover;
@@ -38,6 +39,7 @@ img{
 .filters {
     display: flex;
     gap: 10px;
+    position: absolute;
   }
   
   .filter-tag {
@@ -93,6 +95,7 @@ button:hover {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+   
 }
 
 .job-card {
@@ -130,6 +133,7 @@ button:hover {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .tag {
