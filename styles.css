@@ -38,8 +38,43 @@ img{
 .filters {
     display: flex;
     gap: 10px;
-}
-
+  }
+  
+  .filter-tag {
+    background-color: #def;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-tag button {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  button#clear-filters {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .job-listing {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .job-listing img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
 button {
     border: none;
     background-color: #5ba4a4;
