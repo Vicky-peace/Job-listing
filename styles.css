@@ -13,15 +13,25 @@
 
 body{
     font-family: "League Spartan", sans-serif;
+    background-color: var(--Light-Grayish-Cyan);
 
 }
 
-.main_container{
-    max-width: 1200px;
-    height: 100vh;
-}
-
-.header{
+header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    background-color: #2f9b9b;
+    height: 15vh;
+}
+
+.header img{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img{
+    height: 15vh;
+    width: 100%;
 }
