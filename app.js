@@ -50,7 +50,24 @@ document.addEventListener('DOMContentLoaded', () =>{
                 ${job.tools.map(tool => `<span class="tag">${tool}</span>`).join('')}
             </div>
         `;
-        })
+
+        jobCard.appendChild(jobLogo);
+        jobCard.appendChild(jobDetails);
+        jobListingContainer.appendChild(jobCard)
+        });
     }
-  
+   //event listeners
+   filtersContainer.addEventListener('click', (e) => {
+    if(e.target.tagName === "BUTTON"){
+        const filter = e.target.textContent;
+        if(!filters.includes(filtersContainer)){
+            filters.push(filter);
+            updateFilters();
+            displayJobs(jobs.filter(job => filters.every(filter => job.languages.includes(filter) || job.tools.includes(filter))));
+        }
+    }
+   });
+
+   //clear filters
+   
 })
